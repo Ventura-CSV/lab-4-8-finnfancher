@@ -10,7 +10,7 @@ def main():
     
     for i in range(start, end):
         for j in range(2, 10):
-            if(i%j == 0):
+            if(i%j == 0 and j != i):
                 count +=1
         if(count == 0):
             plist.append(i)
